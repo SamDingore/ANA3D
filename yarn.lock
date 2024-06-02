@@ -2130,6 +2130,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babylonjs/core@npm:^7.9.0":
+  version: 7.9.0
+  resolution: "@babylonjs/core@npm:7.9.0"
+  checksum: 10c0/e009e54f60f836d7d82125bf43ffb5f8edfc6dadb4d3e20032e775bc37ea595a698ec914dd11f4feb2c13bf20e54b72eb2e4b1b4b47bdd1bb5fd82af497f5b39
+  languageName: node
+  linkType: hard
+
+"@babylonjs/loaders@npm:^7.9.0":
+  version: 7.9.0
+  resolution: "@babylonjs/loaders@npm:7.9.0"
+  peerDependencies:
+    "@babylonjs/core": ^7.0.0
+    babylonjs-gltf2interface: ^7.0.0
+  checksum: 10c0/677f3cccdca4db995350d96ef3261fd81c1d848e6c4592ad1b55fd4a85618cede3fa0c2a4de5fda037514ac914e1ceb512dddf890d09123e265e71e1ad0488da
+  languageName: node
+  linkType: hard
+
 "@base2/pretty-print-object@npm:1.0.1":
   version: 1.0.1
   resolution: "@base2/pretty-print-object@npm:1.0.1"
@@ -5564,6 +5581,8 @@ __metadata:
   resolution: "ANA3D@workspace:."
   dependencies:
     "@babel/core": "npm:^7.24.0"
+    "@babylonjs/core": "npm:^7.9.0"
+    "@babylonjs/loaders": "npm:^7.9.0"
     "@mantine/core": "npm:7.10.0"
     "@mantine/hooks": "npm:7.10.0"
     "@next/bundle-analyzer": "npm:^14.1.3"
