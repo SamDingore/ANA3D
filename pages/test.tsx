@@ -6,7 +6,7 @@ import { Button, Input } from '@mantine/core';
 const DynamicMoleculeViewer = dynamic(() => import('../components/MoleculeViewer'), { ssr: false });
 
 const Home: React.FC = () => {
-  const [pdbId, setPdbId] = useState<string>('');
+  const [pdbId, setPdbId] = useState<string>('1Y26');
   const [pdbData, setPdbData] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
