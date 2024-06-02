@@ -33,7 +33,7 @@ const Home: React.FC = () => {
           onChange={(event) => setPdbId(event.currentTarget.value)}
           style={{ marginRight: 10 }}
         />
-        <Button onClick={handleFetchPdbData} disabled={!pdbId || loading}>
+        <Button gradient={{ from: 'blue', to: 'red' }} variant='gradient' onClick={handleFetchPdbData} disabled={!pdbId || loading}>
           {loading ? 'Loading...' : 'Load Structure'}
         </Button>
       </div>
