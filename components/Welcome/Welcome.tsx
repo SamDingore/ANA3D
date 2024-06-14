@@ -16,7 +16,7 @@ export function Welcome() {
       />
     </AspectRatio>
         <Text inherit variant="gradient" component="span" gradient={{ from: 'blue', to: 'red' }}>
-        Advance Nucleuc Acid 3D
+        Advance Nucleic Acid 3D
         </Text>
       </Title>
       <Text  ta="center" size="xl" maw={580} mx="auto" mt="xl">
