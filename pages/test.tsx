@@ -25,7 +25,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div style={{ width: '100vw', height: '100vh', position:'fixed', alignItems: 'center', justifyContent: 'center' }}>
+    <div style={{ width: '100vw', height: '100vh', position: 'fixed', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ marginBottom: 20 }}>
         <Input
           placeholder="Enter PDB ID"
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
           onChange={(event) => setPdbId(event.currentTarget.value)}
           style={{ marginRight: 10 }}
         />
-        <Button gradient={{ from: 'blue', to: 'red' }} variant='gradient' onClick={handleFetchPdbData} disabled={!pdbId || loading}>
+        <Button gradient={{ from: 'blue', to: 'red' }} variant="gradient" onClick={handleFetchPdbData} disabled={!pdbId || loading}>
           {loading ? 'Loading...' : 'Load Structure'}
         </Button>
       </div>
